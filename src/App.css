@@ -1,0 +1,28 @@
+:root{
+
+  --verde: #00FF6E;
+  --branco: #ffffff;
+
+  background-color: var(--branco);
+
+}
+
+.main{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+@media screen and (max-width: 376px) {
+    
+  .main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+}

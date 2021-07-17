@@ -1,0 +1,23 @@
+.post-it{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50vw;
+
+    padding: 2rem;
+
+}
+
+@media screen and (max-width: 376px) {
+    
+    .post-it{
+
+        width: auto;
+        text-align: center;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+header{
+
+    background-color: var(--verde);
+    text-align: center;
+
+}
+
+#img-header{
+
+    width: 100px;
+    height: 100px;
+
+}

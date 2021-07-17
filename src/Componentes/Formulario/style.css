@@ -1,0 +1,27 @@
+.formulario{
+
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+
+    background-color: var(--branco);
+
+    width: 50vw;
+    height: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 376px) {
+    
+    .formulario{
+
+        width: auto;
+        text-align: center;
+
+    }
+
+}
